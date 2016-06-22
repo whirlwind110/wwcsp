@@ -1,0 +1,3214 @@
+[ 2016-04-06T15:55:28+08:00 ] 127.0.0.1 /%e5%af%84%e7%94%9f%e8%9f%b22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-04-06T15:55:29+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-04-06T15:55:30+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2016-04-06T15:55:30+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2016-04-06T15:55:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2016-04-06T15:55:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-04-06T15:55:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2016-04-06T15:55:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000205s ]
+
+[ 2016-04-06T15:55:33+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000202s ]
+
+[ 2016-04-06T15:55:34+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000213s ]
+
+[ 2016-04-06T15:55:35+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-04-06T15:55:36+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-04-06T15:55:37+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='40' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2016-04-06T15:55:38+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-04-06T15:55:39+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2016-04-06T15:55:42+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2016-04-06T15:55:43+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-04-06T15:55:44+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-04-06T15:55:44+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-04-06T15:55:45+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000206s ]
+
+[ 2016-04-06T15:55:45+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2016-04-06T15:55:46+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2016-04-06T15:55:46+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000205s ]
+
+[ 2016-04-06T16:03:59+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2016-04-06T16:04:12+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 10,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000206s ]
+
+[ 2016-04-06T16:04:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/delshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: DELETE FROM `shell` WHERE `id` = 9 [ RunTime:0.0514s ]
+
+[ 2016-04-06T16:04:18+08:00 ] 127.0.0.1 /%e5%af%84%e7%94%9f%e8%9f%b22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-04-06T16:04:18+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2016-04-06T16:05:14+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2016-04-06T16:05:14+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2016-04-06T16:05:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2016-04-06T16:05:18+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2016-04-06T16:05:18+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000217s ]
+
+[ 2016-04-06T16:05:19+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-04-06T16:05:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-04-06T16:05:29+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2016-04-06T16:05:29+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2016-04-06T16:05:29+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000231s ]
+
+[ 2016-04-06T16:05:30+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000206s ]
+
+[ 2016-04-06T16:05:30+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2016-04-06T16:05:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000245s ]
+
+[ 2016-04-06T16:05:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2016-04-06T16:05:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2016-04-06T16:06:09+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-04-06T16:06:09+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000218s ]
+
+[ 2016-04-06T16:06:10+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2016-04-06T16:06:10+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-04-06T16:06:11+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000209s ]
+
+[ 2016-04-06T16:06:14+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000213s ]
+
+[ 2016-04-06T16:06:14+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000216s ]
+
+[ 2016-04-06T16:06:14+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2016-04-06T16:06:37+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000217s ]
+
+[ 2016-04-06T16:06:37+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2016-04-06T16:06:39+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-04-06T16:06:39+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2016-04-06T16:07:26+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-04-06T16:08:02+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000209s ]
+
+[ 2016-04-06T16:08:03+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2016-04-06T16:08:06+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000204s ]
+
+[ 2016-04-06T16:08:07+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2016-04-06T16:08:08+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-04-06T16:08:08+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2016-04-06T16:08:08+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2016-04-06T16:08:09+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2016-04-06T16:08:09+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000199s ]
+
+[ 2016-04-06T16:08:09+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-04-06T16:08:10+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-04-06T16:08:10+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000199s ]
+
+[ 2016-04-06T16:08:10+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2016-04-06T16:08:11+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-04-06T16:08:11+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2016-04-06T16:08:11+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000226s ]
+
+[ 2016-04-06T16:08:13+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `shell` SET `url`='url0555555',`pw`='111111',`suffix`='phtml',`template`='./Public/template/03/',`datafile`='./Public/datafile/data1.txt',`title`='222222222',`description`='des',`keywords`='key',`longkey`='lk' WHERE `id` = 41 [ RunTime:0.0629s ]
+
+[ 2016-04-06T16:08:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `shell` SET `url`='url05555550',`pw`='111111',`suffix`='phtml',`template`='./Public/template/03/',`datafile`='./Public/datafile/data1.txt',`title`='222222222',`description`='des',`keywords`='key',`longkey`='lk' WHERE `id` = 41 [ RunTime:0.0637s ]
+
+[ 2016-04-06T16:08:18+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-04-06T16:08:19+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-04-06T16:08:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `shell` SET `url`='url05555550',`pw`='111111',`suffix`='phtml',`template`='./Public/template/03/',`datafile`='./Public/datafile/data1.txt',`title`='222222222',`description`='des',`keywords`='key',`longkey`='lk' WHERE `id` = 41 [ RunTime:0.0713s ]
+
+[ 2016-04-06T16:09:41+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-04-06T17:00:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000199s ]
+
+[ 2016-04-06T17:00:33+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-04-06T17:00:34+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/addshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000217s ]
+
+[ 2016-04-06T17:00:34+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000203s ]
+
+[ 2016-04-06T18:23:07+08:00 ] 127.0.0.1 /%e5%af%84%e7%94%9f%e8%9f%b22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-04-06T18:23:07+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-04-06T18:23:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2016-04-06T18:23:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-04-06T18:23:22+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000205s ]
+
+[ 2016-04-06T18:23:22+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2016-04-06T18:23:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2016-04-06T18:23:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2016-04-06T18:23:30+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000204s ]
+
+[ 2016-04-06T18:23:30+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2016-04-06T18:23:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/index/bui
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2016-04-06T18:23:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-04-06T18:23:34+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/index/build
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000204s ]
+
+[ 2016-04-06T18:23:34+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-04-06T18:23:42+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/meh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2016-04-06T18:23:55+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-04-06T18:24:14+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-04-06T18:24:35+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='10' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] file_get_contents(tem/style.css): failed to open stream: No such file or directory /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 354 行.
+
+[ 2016-04-06T18:24:53+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-04-06T18:27:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+ERR: syntax error, unexpected ')'
+
+[ 2016-04-06T18:28:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+ERR: syntax error, unexpected 'private' (T_PRIVATE), expecting end of file
+
+[ 2016-04-06T18:28:39+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-04-06T18:29:55+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-06T18:30:19+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/htaccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-04-06T18:31:29+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/htaccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+
+[ 2016-04-06T18:34:55+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/htaccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-04-06T18:36:30+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/htaccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+
+[ 2016-04-06T18:40:54+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-04-06T18:40:54+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='10' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] file_get_contents(tem/style.css): failed to open stream: No such file or directory /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T18:40:54+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/style/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `template` FROM `shell` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] file_get_contents(/style.css): failed to open stream: No such file or directory /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T18:40:57+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-04-06T18:40:57+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000224s ]
+
+[ 2016-04-06T18:40:59+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-04-06T18:41:11+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `shell` SET `url`='url05555550',`pw`='111111',`suffix`='phtml',`template`='./Public/template/03/',`datafile`='./Public/datafile/data1.txt',`title`='222222222',`description`='des',`keywords`='key,k2,k3,k4,k5,k6',`longkey`='lk' WHERE `id` = 41 [ RunTime:0.3853s ]
+
+[ 2016-04-06T18:41:11+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-04-06T18:41:12+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-04-06T18:42:15+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0008s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',`keywords` FROM `shell` WHERE ( id='' )' at line 1
+ [ SQL语句 ] : SELECT `url`,pw',`keywords` FROM `shell` WHERE ( id='' ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',`keywords` FROM `shell` WHERE ( id='' )' at line 1
+ [ SQL语句 ] : SELECT `url`,pw',`keywords` FROM `shell` WHERE ( id='' ) 
+
+[ 2016-04-06T18:42:26+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '49' )' at line 1
+ [ SQL语句 ] : SELECT `url`,pw',`keywords` FROM `shell` WHERE ( id='49' ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '49' )' at line 1
+ [ SQL语句 ] : SELECT `url`,pw',`keywords` FROM `shell` WHERE ( id='49' ) 
+
+[ 2016-04-06T18:42:29+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '45' )' at line 1
+ [ SQL语句 ] : SELECT `url`,pw',`keywords` FROM `shell` WHERE ( id='45' ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '45' )' at line 1
+ [ SQL语句 ] : SELECT `url`,pw',`keywords` FROM `shell` WHERE ( id='45' ) 
+
+[ 2016-04-06T18:42:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' )' at line 1
+ [ SQL语句 ] : SELECT `url`,pw',`keywords` FROM `shell` WHERE ( id='10' ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' )' at line 1
+ [ SQL语句 ] : SELECT `url`,pw',`keywords` FROM `shell` WHERE ( id='10' ) 
+
+[ 2016-04-06T18:42:43+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 353 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-04-06T18:42:57+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-04-06T18:44:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 354 行.
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 355 行.
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-04-06T18:44:32+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 354 行.
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 355 行.
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-04-06T18:44:33+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 354 行.
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 355 行.
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-04-06T18:45:03+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-04-06T18:45:08+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 355 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000245s ]
+
+[ 2016-04-06T18:46:03+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: dir /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-04-06T18:46:19+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-04-06T20:30:00+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/builddir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+ERR: 非法操作:builddir
+
+[ 2016-04-06T20:30:13+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='10' )  [ RunTime:0.0001s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:30:15+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='1' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:30:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='9' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:30:18+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='45' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:30:44+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2016-04-06T20:30:44+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-04-06T20:30:45+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0006s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='45' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 372 行.
+
+[ 2016-04-06T20:30:46+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 343 行.
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 345 行.
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 372 行.
+
+[ 2016-04-06T20:30:47+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 343 行.
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 345 行.
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 372 行.
+
+[ 2016-04-06T20:30:50+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='' )  [ RunTime:0.0001s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 372 行.
+
+[ 2016-04-06T20:31:02+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:31:08+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='49' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:31:11+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0006s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='44' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:31:13+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 343 行.
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 345 行.
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:31:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 343 行.
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined index: url /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 345 行.
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 373 行.
+
+[ 2016-04-06T20:41:52+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+ERR: syntax error, unexpected ';', expecting ']'
+
+[ 2016-04-06T20:42:13+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 355 行.
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 356 行.
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 357 行.
+
+[ 2016-04-06T20:42:22+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0008s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 355 行.
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 356 行.
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 357 行.
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 358 行.
+
+[ 2016-04-06T20:42:34+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 356 行.
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 357 行.
+NOTIC: [2] Illegal offset type /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 358 行.
+
+[ 2016-04-06T20:42:49+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+
+[ 2016-04-06T20:43:07+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0001s ]
+
+[ 2016-04-06T20:43:28+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0001s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 383 行.
+
+[ 2016-04-06T20:43:28+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 383 行.
+
+[ 2016-04-06T20:43:36+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 384 行.
+
+[ 2016-04-06T20:44:04+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0001s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 383 行.
+
+[ 2016-04-06T20:44:30+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 384 行.
+
+[ 2016-04-06T20:44:52+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0001s ]
+
+[ 2016-04-06T20:45:12+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0004s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 340 行.
+
+[ 2016-04-06T20:45:23+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/home/index/build/method/dir/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw`,`keywords` FROM `shell` WHERE ( id='41' )  [ RunTime:0.0002s ]
+
+[ 2016-04-06T21:49:00+08:00 ] 127.0.0.1 /%e5%af%84%e7%94%9f%e8%9f%b22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-04-06T21:49:00+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/showshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: publictitle /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: corekeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: longkeywords /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/shawn/www/root/寄生蟲2/App/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-04-06T21:49:01+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-04-06T21:49:53+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/shawn/www/root/寄生蟲2/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `shell` SET `url`='url05555550',`pw`='111111',`suffix`='php',`template`='./Public/template/03/',`datafile`='./Public/datafile/data1.txt',`title`='222222222',`description`='des',`keywords`='key,k2,k3,k4,k5,k6',`longkey`='lk' WHERE `id` = 41 [ RunTime:0.0459s ]
+
+[ 2016-04-06T21:49:54+08:00 ] 127.0.0.1 /%e5%af%84%e7%94%9f%e8%9f%b22/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined variable: time /home/shawn/www/root/寄生蟲2/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-04-06T21:49:54+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B22/Home/Index/editshell?sid=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shell` WHERE ( id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000218s ]
+

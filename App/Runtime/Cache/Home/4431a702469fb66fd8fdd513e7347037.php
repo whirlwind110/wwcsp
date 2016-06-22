@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>create_first_one功能正在开发。

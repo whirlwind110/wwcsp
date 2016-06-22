@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    vertical-align: middle;
+}
+
+#body {
+    margin-top: 30px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    border: 1px solid grey;
+    overflow: auto;
+    height: 550px;
+}
+
+#page ul {
+    margin: 0;
+    padding: 0;
+}
+
+#info {
+    border: 1px solid grey;
+    height: 327px;
+    overflow: auto;
+    font-size: 10px;
+}
+
+.staticpage {
+    padding: 0;
+}

@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>inde功能正在开发。

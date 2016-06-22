@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>寄生虫自动无限繁殖php版功能正在开发。

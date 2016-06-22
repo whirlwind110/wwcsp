@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>shell功能正在开发。

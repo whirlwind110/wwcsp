@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>style.css功能正在开发。

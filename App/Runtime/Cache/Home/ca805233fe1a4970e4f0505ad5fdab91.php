@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>pool功能正在开发。

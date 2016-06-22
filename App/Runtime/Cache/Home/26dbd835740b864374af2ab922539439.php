@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>links0功能正在开发。

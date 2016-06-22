@@ -1,0 +1,1603 @@
+[ 2016-04-04T15:26:11+08:00 ] 127.0.0.1 /%e5%af%84%e7%94%9f%e8%9f%b2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-04-04T15:26:11+08:00 ] 127.0.0.1 /%e5%af%84%e7%94%9f%e8%9f%b2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shell` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shell` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='8' )  [ RunTime:0.0002s ]
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='6' )  [ RunTime:0.0002s ]
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88/SEO%E5%B7%A5%E7%A8%8B%E5%B8%88-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88&title=SEO%E5%B7%A5%E7%A8%8B%E5%B8%88-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/寄生虫自动无限繁殖php版/SEO工程师-2016-04-04版本.html','8','4','寄生虫自动无限繁殖php版','SEO工程师-2016-04-04版本') [ RunTime:0.0457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F/seo%E7%B2%BE%E9%AB%93-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F&title=seo%E7%B2%BE%E9%AB%93-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/php寄生虫程序/seo精髓-2016-04-04版本.html','8','4','php寄生虫程序','seo精髓-2016-04-04版本') [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-04-04T15:26:16+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4/heimaseo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4&title=heimaseo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0007s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/2016寄生虫站群/heimaseo-2016-04-04版本.html','8','4','2016寄生虫站群','heimaseo-2016-04-04版本') [ RunTime:0.0776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E8%9C%98%E8%9B%9B%E6%B1%A0/%E7%BB%8F%E9%AA%8C%20seo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0&title=%E7%BB%8F%E9%AA%8C%20seo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/蜘蛛池/经验 seo-2016-04-04版本.html','8','4','蜘蛛池','经验 seo-2016-04-04版本') [ RunTime:0.0393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6/%E6%B3%8A%E5%90%9Bseo%E4%BC%AA%E5%8E%9F%E5%88%9B%E8%BD%AF%E4%BB%B6-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6&title=%E6%B3%8A%E5%90%9Bseo%E4%BC%AA%E5%8E%9F%E5%88%9B%E8%BD%AF%E4%BB%B6-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0007s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/黑帽seo软件/泊君seo伪原创软件-2016-04-04版本.html','6','4','黑帽seo软件','泊君seo伪原创软件-2016-04-04版本') [ RunTime:0.0365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E6%8E%92%E5%90%8D-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88&title=%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E6%8E%92%E5%90%8D-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/寄生虫自动无限繁殖php版/百度知道排名-2016-04-04版本.html','6','4','寄生虫自动无限繁殖php版','百度知道排名-2016-04-04版本') [ RunTime:0.0267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E8%9C%98%E8%9B%9B%E6%B1%A0/%E7%88%B1%E7%AB%99seo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0&title=%E7%88%B1%E7%AB%99seo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/蜘蛛池/爱站seo-2016-04-04版本.html','6','4','蜘蛛池','爱站seo-2016-04-04版本') [ RunTime:0.0363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4/%E4%BA%8E%E5%85%89%E5%8D%9A%E5%AE%A2-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4&title=%E4%BA%8E%E5%85%89%E5%8D%9A%E5%AE%A2-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/2016寄生虫站群/于光博客-2016-04-04版本.html','6','4','2016寄生虫站群','于光博客-2016-04-04版本') [ RunTime:0.0473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E9%BB%91%E5%B8%BDseo/%E9%93%BE%E8%BD%AE%20seo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E9%BB%91%E5%B8%BDseo&title=%E9%93%BE%E8%BD%AE%20seo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/黑帽seo/链轮 seo-2016-04-04版本.html','6','4','黑帽seo','链轮 seo-2016-04-04版本') [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E9%BB%91%E5%B8%BDseo/asp%20seo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E9%BB%91%E5%B8%BDseo&title=asp%20seo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/黑帽seo/asp seo-2016-04-04版本.html','8','4','黑帽seo','asp seo-2016-04-04版本') [ RunTime:0.0319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F/%E7%A4%BC%E6%84%8F%E4%B9%85%E4%B9%85%20seo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F&title=%E7%A4%BC%E6%84%8F%E4%B9%85%E4%B9%85%20seo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/php寄生虫程序/礼意久久 seo-2016-04-04版本.html','6','4','php寄生虫程序','礼意久久 seo-2016-04-04版本') [ RunTime:0.0596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-04-04T15:26:17+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6/%E7%99%BE%E5%BA%A6%E5%88%86%E4%BA%AB%E5%B7%A5%E5%85%B7-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6&title=%E7%99%BE%E5%BA%A6%E5%88%86%E4%BA%AB%E5%B7%A5%E5%85%B7-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/黑帽seo软件/百度分享工具-2016-04-04版本.html','8','4','黑帽seo软件','百度分享工具-2016-04-04版本') [ RunTime:0.1254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='8' )  [ RunTime:0.0002s ]
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='6' )  [ RunTime:0.0002s ]
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined offset: 28 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 118 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:20+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F/%E5%AE%81%E6%B3%A2seo%E7%BE%A4-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F&title=%E5%AE%81%E6%B3%A2seo%E7%BE%A4-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/php寄生虫程序/宁波seo群-2016-04-04版本.html','6','4','php寄生虫程序','宁波seo群-2016-04-04版本') [ RunTime:0.4394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E9%BB%91%E5%B8%BDseo/%E4%BA%91%E4%BC%98%E5%AE%9D-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E9%BB%91%E5%B8%BDseo&title=%E4%BA%91%E4%BC%98%E5%AE%9D-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/黑帽seo/云优宝-2016-04-04版本.html','6','4','黑帽seo','云优宝-2016-04-04版本') [ RunTime:0.1092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4/seo%E6%9D%A8%E8%B6%85-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4&title=seo%E6%9D%A8%E8%B6%85-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/2016寄生虫站群/seo杨超-2016-04-04版本.html','6','4','2016寄生虫站群','seo杨超-2016-04-04版本') [ RunTime:0.0295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6/%E8%8C%97%E9%B8%BF%E9%85%92%E4%B8%9A-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6&title=%E8%8C%97%E9%B8%BF%E9%85%92%E4%B8%9A-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/黑帽seo软件/茗鸿酒业-2016-04-04版本.html','6','4','黑帽seo软件','茗鸿酒业-2016-04-04版本') [ RunTime:0.0362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E9%BB%91%E5%B8%BDseo/aizhan-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E9%BB%91%E5%B8%BDseo&title=aizhan-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/黑帽seo/aizhan-2016-04-04版本.html','8','4','黑帽seo','aizhan-2016-04-04版本') [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88/seo%E7%BD%91%E7%AB%99%E8%AF%8A%E6%96%AD-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88&title=seo%E7%BD%91%E7%AB%99%E8%AF%8A%E6%96%AD-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/寄生虫自动无限繁殖php版/seo网站诊断-2016-04-04版本.html','8','4','寄生虫自动无限繁殖php版','seo网站诊断-2016-04-04版本') [ RunTime:0.0468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F/seo%20%E5%AD%A6%E6%A0%A1-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F&title=seo%20%E5%AD%A6%E6%A0%A1-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/php寄生虫程序/seo 学校-2016-04-04版本.html','8','4','php寄生虫程序','seo 学校-2016-04-04版本') [ RunTime:0.0997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6/seo%E8%A7%84%E8%8C%83-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6&title=seo%E8%A7%84%E8%8C%83-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/黑帽seo软件/seo规范-2016-04-04版本.html','8','4','黑帽seo软件','seo规范-2016-04-04版本') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E8%9C%98%E8%9B%9B%E6%B1%A0/%E5%A4%AB%E5%94%AFseo%E5%85%A8%E9%9B%86-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0&title=%E5%A4%AB%E5%94%AFseo%E5%85%A8%E9%9B%86-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/蜘蛛池/夫唯seo全集-2016-04-04版本.html','6','4','蜘蛛池','夫唯seo全集-2016-04-04版本') [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E8%9C%98%E8%9B%9B%E6%B1%A0/seo%203-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0&title=seo%203-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/蜘蛛池/seo 3-2016-04-04版本.html','8','4','蜘蛛池','seo 3-2016-04-04版本') [ RunTime:0.0621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88/%E6%B6%A8%E5%A7%BF%E5%8A%BF%E4%BA%86%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88&title=%E6%B6%A8%E5%A7%BF%E5%8A%BF%E4%BA%86%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/寄生虫自动无限繁殖php版/涨姿势了什么意思-2016-04-04版本.html','6','4','寄生虫自动无限繁殖php版','涨姿势了什么意思-2016-04-04版本') [ RunTime:0.0356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-04-04T15:26:21+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4/seo%E7%AE%80%E5%8E%86%E6%A8%A1%E7%89%88-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4&title=seo%E7%AE%80%E5%8E%86%E6%A8%A1%E7%89%88-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/2016寄生虫站群/seo简历模版-2016-04-04版本.html','8','4','2016寄生虫站群','seo简历模版-2016-04-04版本') [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-04-04T15:26:23+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0004s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='8' )  [ RunTime:0.0002s ]
+
+[ 2016-04-04T15:26:23+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0006s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='6' )  [ RunTime:0.0002s ]
+
+[ 2016-04-04T15:26:23+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=8&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getartcle?id=6&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: sixli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: sixli2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: section /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 142 行.
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88/aizhan-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88&title=aizhan-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/寄生虫自动无限繁殖php版/aizhan-2016-04-04版本.html','6','4','寄生虫自动无限繁殖php版','aizhan-2016-04-04版本') [ RunTime:0.0361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F/seo%E8%A7%84%E5%88%99-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F&title=seo%E8%A7%84%E5%88%99-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/php寄生虫程序/seo规则-2016-04-04版本.html','6','4','php寄生虫程序','seo规则-2016-04-04版本') [ RunTime:0.0368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E9%BB%91%E5%B8%BDseo/seo%E6%96%BD%E5%B1%95%E5%AF%86%E7%A0%81-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E9%BB%91%E5%B8%BDseo&title=seo%E6%96%BD%E5%B1%95%E5%AF%86%E7%A0%81-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0016s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/黑帽seo/seo施展密码-2016-04-04版本.html','6','4','黑帽seo','seo施展密码-2016-04-04版本') [ RunTime:0.0801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4/%E8%8B%8F%E5%B7%9E%E6%BC%94%E5%87%BA%E5%85%AC%E5%8F%B8-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4&title=%E8%8B%8F%E5%B7%9E%E6%BC%94%E5%87%BA%E5%85%AC%E5%8F%B8-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/2016寄生虫站群/苏州演出公司-2016-04-04版本.html','6','4','2016寄生虫站群','苏州演出公司-2016-04-04版本') [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88/b2b%E4%B8%8Ec2c%E7%9A%84%E5%8C%BA%E5%88%AB-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88&title=b2b%E4%B8%8Ec2c%E7%9A%84%E5%8C%BA%E5%88%AB-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/寄生虫自动无限繁殖php版/b2b与c2c的区别-2016-04-04版本.html','8','4','寄生虫自动无限繁殖php版','b2b与c2c的区别-2016-04-04版本') [ RunTime:0.0467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4/%E5%90%95%E5%BC%BAseo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4&title=%E5%90%95%E5%BC%BAseo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/2016寄生虫站群/吕强seo-2016-04-04版本.html','8','4','2016寄生虫站群','吕强seo-2016-04-04版本') [ RunTime:0.0864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E9%BB%91%E5%B8%BDseo/%E7%99%BE%E4%B8%ADseo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E9%BB%91%E5%B8%BDseo&title=%E7%99%BE%E4%B8%ADseo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/黑帽seo/百中seo-2016-04-04版本.html','8','4','黑帽seo','百中seo-2016-04-04版本') [ RunTime:0.0418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E8%9C%98%E8%9B%9B%E6%B1%A0/%E9%91%AB%E4%B9%9D%E7%9B%9B-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0&title=%E9%91%AB%E4%B9%9D%E7%9B%9B-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/蜘蛛池/鑫九盛-2016-04-04版本.html','8','4','蜘蛛池','鑫九盛-2016-04-04版本') [ RunTime:0.0262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E8%9C%98%E8%9B%9B%E6%B1%A0/%E4%BD%99%E5%85%89%E5%8D%9A%E5%AE%A2-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0&title=%E4%BD%99%E5%85%89%E5%8D%9A%E5%AE%A2-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/蜘蛛池/余光博客-2016-04-04版本.html','6','4','蜘蛛池','余光博客-2016-04-04版本') [ RunTime:0.0608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F/%E5%BE%AE%E7%AC%91seo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F&title=%E5%BE%AE%E7%AC%91seo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/php寄生虫程序/微笑seo-2016-04-04版本.html','8','4','php寄生虫程序','微笑seo-2016-04-04版本') [ RunTime:0.0267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-04-04T15:26:24+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.lefast.com.cn/index/%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6/%E5%88%98%E6%98%8E%20seo-2016-04-04%E7%89%88%E6%9C%AC.html&sid=6&class=4&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6&title=%E5%88%98%E6%98%8E%20seo-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.lefast.com.cn/index/黑帽seo软件/刘明 seo-2016-04-04版本.html','6','4','黑帽seo软件','刘明 seo-2016-04-04版本') [ RunTime:0.0383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='8' )  [ RunTime:0.0001s ]
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='6' )  [ RunTime:0.0002s ]
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='寄生虫自动无限繁殖php版' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='php寄生虫程序' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='黑帽seo软件' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='黑帽seo' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='蜘蛛池' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='php寄生虫程序' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='寄生虫自动无限繁殖php版' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='2016寄生虫站群' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='蜘蛛池' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='2016寄生虫站群' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='黑帽seo软件' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='黑帽seo' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getindex?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 207 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='寄生虫自动无限繁殖php版' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 217 行.
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='php寄生虫程序' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='黑帽seo' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='2016寄生虫站群' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='蜘蛛池' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='黑帽seo软件' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rightli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 229 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getindex?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 207 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='寄生虫自动无限繁殖php版' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 217 行.
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='php寄生虫程序' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='黑帽seo' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='2016寄生虫站群' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='蜘蛛池' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='黑帽seo软件' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rightli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 229 行.
+
+[ 2016-04-04T15:26:27+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/links?url=http://www.f88h.com/plus/%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6/%E5%BC%80%E8%A7%86%E7%BD%91-2016-04-04%E7%89%88%E6%9C%AC.html&sid=8&class=4&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6&title=%E5%BC%80%E8%A7%86%E7%BD%91-2016-04-04%E7%89%88%E6%9C%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: INSERT INTO `links` (`url`,`sid`,`class`,`dir`,`title`) VALUES ('http://www.f88h.com/plus/黑帽seo软件/开视网-2016-04-04版本.html','8','4','黑帽seo软件','开视网-2016-04-04版本') [ RunTime:0.0518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0003s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='8' )  [ RunTime:0.0002s ]
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getdir?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `shell` [ RunTime:0.0005s ]
+SQL: SELECT `url`,`pw` FROM `shell` WHERE ( id='6' )  [ RunTime:0.0003s ]
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='寄生虫自动无限繁殖php版' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='php寄生虫程序' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='2016寄生虫站群' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='黑帽seo' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='蜘蛛池' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=8&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='黑帽seo软件' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=%E5%AF%84%E7%94%9F%E8%99%AB%E8%87%AA%E5%8A%A8%E6%97%A0%E9%99%90%E7%B9%81%E6%AE%96php%E7%89%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='寄生虫自动无限繁殖php版' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=2016%E5%AF%84%E7%94%9F%E8%99%AB%E7%AB%99%E7%BE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='2016寄生虫站群' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=%E9%BB%91%E5%B8%BDseo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='黑帽seo' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=php%E5%AF%84%E7%94%9F%E8%99%AB%E7%A8%8B%E5%BA%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='php寄生虫程序' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getindex?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 207 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='寄生虫自动无限繁殖php版' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 217 行.
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='php寄生虫程序' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='黑帽seo' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='2016寄生虫站群' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='蜘蛛池' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 and dir='黑帽seo软件' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='8' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rightli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 229 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=%E9%BB%91%E5%B8%BDseo%E8%BD%AF%E4%BB%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='黑帽seo软件' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getindex?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 207 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='寄生虫自动无限繁殖php版' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: listli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 217 行.
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='php寄生虫程序' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='黑帽seo' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='2016寄生虫站群' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='蜘蛛池' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='黑帽seo软件' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 ) ORDER BY id DESC LIMIT 200   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rightli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 229 行.
+
+[ 2016-04-04T15:26:31+08:00 ] 127.0.0.1 /%E5%AF%84%E7%94%9F%E8%9F%B2/Home/Index/getkeyindex?id=6&dir=%E8%9C%98%E8%9B%9B%E6%B1%A0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: navli /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `links` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `links` WHERE ( sid='6' and class=4 and dir='蜘蛛池' ) ORDER BY id DESC LIMIT 36   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listul1 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul2 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 183 行.
+NOTIC: [8] Undefined variable: listul3 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul4 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul5 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: listul6 /home/shawn/www/root/寄生蟲/App/Home/Controller/IndexController.class.php 第 187 行.
+

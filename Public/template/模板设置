@@ -1,0 +1,23 @@
+模板设置
+6个核心关键词，1个公共标题，一堆长尾关键词字典。
+{title}		公共标题
+{style}		style.css
+{keywords}	6个核心关键词，逗号分割
+{description}	描述
+{navli}		顶部导航，6个关键词组成li
+{friendlinkli}	底部友情链接li
+
+
+
+{listli}		6个核心关键词对应链接列表
+{section}	文章内容
+{mykey}	当前关键词
+{date}		当前日期(20160101)
+
+
+(顺序替换)
+{mycorekey}	6个核心关键词一个
+{mylink}	当前站链接 
+{mykeylink}	当前索引分类链接
+{syslink}	站群随机文章链接
+{poollink}	蜘蛛池推广链接

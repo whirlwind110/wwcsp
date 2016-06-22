@@ -1,0 +1,10 @@
+[ 2016-05-01T16:11:55+08:00 ] 127.0.0.1 /%e5%af%84%e7%94%9f%e8%9f%b2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+ERR: Call to undefined function Think\simplexml_load_string()
+
